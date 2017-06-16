@@ -1,0 +1,29 @@
+{
+  "name": "easy-cmd",
+  "version": "0.1.0",
+  "description": "easy to build command tool.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvrcgo/easy-cmd.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "tvrcgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvrcgo/easy-cmd/issues"
+  },
+  "homepage": "https://github.com/tvrcgo/easy-cmd#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "minimist": "^1.2.0"
+  }
+}
