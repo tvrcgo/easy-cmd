@@ -19,8 +19,8 @@ new Cmd().run()
 `command/sub-cmd.js`
 
 ```javascript
-module.exports = function* (argv, cmd) {
-  
+module.exports = function* (cmd) {
+  const argv = cmd.argv
   // execute node module
   yield cmd.fork('module-path', args, options)
 }
