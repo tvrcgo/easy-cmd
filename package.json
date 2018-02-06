@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tvrcgo/easy-cmd#readme",
   "dependencies": {
-    "co": "^4.6.0",
-    "minimist": "^1.2.0"
+    "cac": "^4.4.1",
+    "co": "^4.6.0"
   }
 }

@@ -12,15 +12,18 @@ npm install easy-cmd --save-dev
 
 ```javascript
 #!/usr/bin/env node
-const Cmd = require('easy-cmd')
-new Cmd().run()
+const cli = require('easy-cmd')
+cli.parse()
 ```
 
 `command/sub-cmd.js`
 
 ```javascript
-module.exports = function* (cmd) {
-  const argv = cmd.argv
+exports.options = {
+  desc: 'command description.'
+}
+
+exports.run = function* (argv, cmd) {
   // execute node module
   yield cmd.fork('module-path', args, options)
 }
